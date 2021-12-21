@@ -31,5 +31,5 @@ if rana=="32bit":
     chotarsa.start()
 elif rana=="64bit":
     import rsa64bit
-    rsa64bit.start()
+    rsa64bit.main_system()
 #-------------------------------------#
