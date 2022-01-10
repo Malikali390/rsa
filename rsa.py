@@ -1,5 +1,4 @@
-#-------------------------------------#
-#-----------AAHIL---CODING
+#Aahil_coding
 import os, time, platform
 os.system("cd $HOME/")
 
@@ -32,4 +31,3 @@ if rana=="32bit":
 elif rana=="64bit":
     import rsa64bit
     rsa64bit.main_system()
-#-------------------------------------#
