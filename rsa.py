@@ -19,6 +19,7 @@ try:
 except ImportError:
     os.system("pip2 install mechanize")
     os.system("pip install mechanize")
+
 rana=platform.architecture()[0]
 if rana=="32bit":
     import minirsa
