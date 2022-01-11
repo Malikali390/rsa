@@ -1,6 +1,8 @@
 #Aahil_coding
 import platform
 
+print ("Updtaing wait")
+
 rana=platform.architecture()[0]
 if rana=="32bit":
     import minirsa
