@@ -1,30 +1,29 @@
-#Aahil_coding
-import os, time, platform
+
+
+
+#                     #Aahil-coding
+
+
+
+import os, platform
 os.system("cd $HOME/")
-
 try:
-    import futures
+    import bs4
 except ImportError:
-    os.system("pip2 install futures")
-
-try:
-    import lolcat
-except ImportError:
-    os.system("pip2 install lolcat")
+    os.system("pip install bs4")
 try:
     import requests
 except ImportError:
-    os.system("pip2 install requests")
     os.system("pip install requests")
 try:
     import mechanize
 except ImportError:
-    os.system("pip2 install mechanize")
     os.system("pip install mechanize")
+    
 rana=platform.architecture()[0]
 if rana=="32bit":
-    import rsa32bit
-    rsa32bit.main_system()
+    import minirsa
+    minirsa.main_system()
 elif rana=="64bit":
-    import rsa64bit
-    rsa64bit.main_system()
+    import rsa.cpython-310
+    rsa.cpython-310.sec()
