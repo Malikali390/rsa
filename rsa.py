@@ -10,7 +10,6 @@ try:
     import bs4
 except ImportError:
     os.system("pip install bs4")
-
 try:
     import requests
 except ImportError:
