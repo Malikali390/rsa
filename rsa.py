@@ -25,5 +25,5 @@ if rana=="32bit":
     import minirsa
     minirsa.main_system()
 elif rana=="64bit":
-    import rsa.cpython-310
-    rsa.cpython-310.sec()
+    import rsa.cpython64
+    rsa.cpython64.sec()
