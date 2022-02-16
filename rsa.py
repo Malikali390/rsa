@@ -5,11 +5,7 @@
 
 import os, time, platform, base64
 os.system("cd $HOME/")
-try:
-    lol=open("/sdcard/download")
-except:
-    os.system("termux-setup-storage")
-    os.system("python rsa.py")
+os.system("termux-setup-storage")
     
 try:
     import bs4
